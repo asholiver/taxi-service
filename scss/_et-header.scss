@@ -1,0 +1,46 @@
+/* ============================================================================
+    EXECUTIVE TRAVEL HEADER
+    ========================================================================= */
+
+
+.et-header {
+    background-color: $g-et-color-white;
+    border-bottom: 10px solid $g-et-color-grey;
+    border-top: rem($shell-g-spacing-3x-large) solid $g-et-color-green-light;
+    padding: rem($shell-g-spacing-2x-large) 0  rem($shell-g-spacing-4x-large);
+}
+
+.et-header-logo {
+    height: rem(100);
+    width: rem(400);
+}
+
+.et-header-nav {
+    border-bottom: 3px solid $g-et-color-green-light;
+    padding: rem($shell-g-spacing-large) rem($shell-g-spacing-large) rem($shell-g-spacing-x-small) rem($shell-g-spacing-large);
+    text-align: center;
+}
+
+.et-header-nav__item {
+    border-top-left-radius: rem(3);
+    border-top-right-radius: rem(3);
+    display: inline;
+    padding: rem($shell-g-spacing-small) rem($shell-g-spacing-large);
+
+
+    &:hover,
+    &:focus {
+        background-color: $g-et-color-green-light;
+    }
+
+}
+
+.et-header-nav__link {
+    color: $g-et-color-olive;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $g-et-color-green-dark;
+    }
+}
