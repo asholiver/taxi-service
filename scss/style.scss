@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/**
+ * Styles for Taxi-service.
+ */
+
+
+/**
+ * Shell overrides.
+ */
+
+@import 'settings';
+
+
+
+
+/**
+ * Shell library.
+ */
+
+@import '../node_modules/shell-csslib/src/shell';
+
+
+/**
+ * Components.
+ */
+
+@import 'et-header';
+
+@import 'et-body';
+
+
+/**
+ * Helpers.
+ */
+
+ //@import 'helpers';

@@ -1,0 +1,23 @@
+/*
+* Colour palette
+*/
+
+$g-et-color-olive : #57822B;
+$g-et-color-green-dark: #9CB47C;
+$g-et-color-green-light: #B4BCAC;
+$g-et-color-grey: #ACACAC;
+$g-et-color-white: #FFF;
+$g-et-color-off-white: #FBFBFB;
+
+
+/*
+* .1 allows button functionality for icon only buttons
+*/
+
+button svg {
+    pointer-events: none; // [1]
+}
+
+a {
+    text-decoration: none;
+}
