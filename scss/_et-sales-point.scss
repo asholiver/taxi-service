@@ -1,0 +1,44 @@
+/* ============================================================================
+    EXECUTIVE TRAVEL SALES POINT
+    ========================================================================= */
+
+
+
+
+.et-sales-point-container {
+    background-color: $g-et-color-grey;
+    height: rem(500);
+}
+
+.et-sales-point {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.et-sales-point__item {
+    margin: 0 rem($shell-g-spacing-6x-large);
+    padding: rem($shell-g-spacing);
+}
+
+.et-sales-point__border-icon {
+    align-items: center;
+    background-color: $g-et-color-green-light;
+    border-radius: 50%;
+    display: flex;
+    height: rem($shell-g-spacing-6x-large);
+    justify-content: center;
+    width: rem($shell-g-spacing-6x-large);
+}
+
+.et-sales-point__svg {
+    color: $g-et-color-off-white;
+    height: rem($shell-g-spacing-2x-large);
+    width: rem($shell-g-spacing-2x-large);
+}
+
+.et-sales-point__summary {
+    margin-top: rem($shell-g-spacing);
+    text-align: center;
+}

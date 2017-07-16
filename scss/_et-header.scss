@@ -37,10 +37,20 @@
 
 .et-header-nav__link {
     color: $g-et-color-olive;
-    text-decoration: none;
 
     &:hover,
     &:focus {
         color: $g-et-color-green-dark;
     }
 }
+
+.et-header-text {
+    color: $g-et-color-olive;
+}
+
+.et-header-svg {
+    height: rem($shell-g-spacing-large);
+    margin-right: rem($shell-g-spacing);
+    width: rem($shell-g-spacing-large);
+}
+

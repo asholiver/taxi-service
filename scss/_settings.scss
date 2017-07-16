@@ -8,6 +8,7 @@ $g-et-color-green-light: #B4BCAC;
 $g-et-color-grey: #ACACAC;
 $g-et-color-white: #FFF;
 $g-et-color-off-white: #FBFBFB;
+$g-et-color-off-black: #383838;
 
 
 /*
@@ -19,5 +20,9 @@ button svg {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+.hidden {
+    display: none;
 }

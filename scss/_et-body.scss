@@ -2,3 +2,41 @@
     EXECUTIVE TRAVEL BODY
     ========================================================================= */
 
+
+.et-section-bg {
+    background: url('../images/dark-grey-mercedes.jpg') no-repeat center center;
+    background-size: cover;
+    height: rem(600);
+    opacity: 0.7;
+    width: 100%;
+}
+
+
+.et-title {
+    color: $g-et-color-off-white;
+    font-size: rem($shell-g-font-size-4x-large);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 2px 14px rgba(150, 150, 150, 1);
+    vertical-align: middle;
+}
+
+.et-title-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: rem(600);
+    justify-content: center;
+}
+
+.et-quick-link {
+    background-color: $g-et-color-off-black;
+    border-radius: rem(3);
+    padding: rem($shell-g-spacing-large) rem($shell-g-spacing-4x-large);
+    text-align: center;
+
+    &:hover,
+    &:focus {
+        background-color: $g-et-color-green-light;
+    }
+}
