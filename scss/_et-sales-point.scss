@@ -2,13 +2,6 @@
     EXECUTIVE TRAVEL SALES POINT
     ========================================================================= */
 
-
-
-
-.et-sales-point-container {
-    background-color: $g-et-color-grey;
-}
-
 .et-sales-point {
     align-items: center;
     display: flex;
@@ -22,11 +15,12 @@
 
 .et-sales-point__border-icon {
     align-items: center;
-    background-color: $g-et-color-green-light;
+    background-color: $g-et-color-slate;
     border-radius: 50%;
     display: flex;
     height: rem($shell-g-spacing-6x-large);
     justify-content: center;
+    margin-bottom: rem($shell-g-spacing-large);
     width: rem($shell-g-spacing-6x-large);
 }
 

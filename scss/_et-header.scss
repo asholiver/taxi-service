@@ -6,7 +6,7 @@
 .et-header {
     background-color: $g-et-color-white;
     border-bottom: 10px solid $g-et-color-grey;
-    border-top: rem($shell-g-spacing-3x-large) solid $g-et-color-green-light;
+    border-top: rem($shell-g-spacing-3x-large) solid $g-et-color-off-black;
     padding: rem($shell-g-spacing-2x-large) 0  rem($shell-g-spacing-4x-large);
 }
 
@@ -15,7 +15,7 @@
 }
 
 .et-main-nav {
-    border-bottom: 3px solid $g-et-color-green-light;
+    border-bottom: 3px solid $g-et-color-blue;
     display: flex;
     justify-content: center;
     padding: 0 rem($shell-g-spacing-large);
@@ -29,30 +29,19 @@
 }
 
 .et-main-nav__link {
-    color: $g-et-color-olive;
+    border-top-left-radius: rem(3);
+    border-top-right-radius: rem(3);
+    color: $g-et-color-blue;
     display: block;
+    font-size: rem($shell-g-font-size-large);
+    font-weight: 300;
     padding: rem($shell-g-spacing-small) rem($shell-g-spacing-large);
 
     &:hover,
     &:focus {
-        background-color: $g-et-color-green-light;
+        background-color: $g-et-color-off-black;
         color: $g-et-color-off-white;
+        transition: all 0.1s ease-in;
     }
 }
 
-.et-header-text {
-    color: $g-et-color-olive;
-}
-
-.et-header-svg {
-    height: rem($shell-g-spacing-large);
-    margin-right: rem($shell-g-spacing);
-    width: rem($shell-g-spacing-large);
-}
-
-.et-header-call {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    line-height: 2;
-}
