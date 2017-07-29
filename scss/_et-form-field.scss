@@ -2,18 +2,12 @@
     EXECUTIVE TRAVEL FORM FIELD
     ========================================================================= */
 
-
-.et-form-field {
-    display: flex;
-    flex-direction: column;
-    padding: rem($shell-g-spacing) 0;
-}
-
 .et-form-field__label {
     color: $g-et-color-off-white;
+    display: block;
     font-size: rem($shell-g-font-size);
     font-weight: 300;
-    margin-bottom: rem($shell-g-spacing-x-small);
+    padding-bottom: rem($shell-g-spacing-x-small);
 }
 
 .et-form-field__input {
@@ -23,5 +17,6 @@
     color: $g-et-color-off-white;
     font-weight: 300;
     padding: rem(10);
+    width: 100%;
 }
 

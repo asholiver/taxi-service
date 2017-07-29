@@ -1,0 +1,20 @@
+/* ============================================================================
+    EXECUTIVE TRAVEL SECTIONS
+    ========================================================================= */
+
+.et-section {
+    padding: rem($shell-g-spacing-6x-large) rem($shell-g-spacing-3x-large);
+}
+
+.et-section--dark {
+    background-color: $g-et-color-off-black;
+}
+
+.et-section--light {
+    background-color: $g-et-color-off-white;
+}
+
+.et-section--light__bordered {
+    border-bottom: 1px solid $g-et-color-off-grey;
+    border-top: 1px solid $g-et-color-off-grey;
+}

@@ -51,8 +51,7 @@
     color: $g-et-color-off-white;
     font-size: rem($shell-g-font-size-large);
     font-weight: 300;
-    padding: rem($shell-g-spacing) 0;
-    width: rem(150);
+    padding: rem($shell-g-spacing) rem($shell-g-spacing-2x-large);
 
     &:hover,
     &:focus {
@@ -60,4 +59,8 @@
         color: $g-et-color-blue;
         transition: all 0.1s ease-in;
     }
+}
+
+.c-button--bordered {
+    border: 1px solid $g-et-color-blue;
 }

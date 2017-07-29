@@ -1,11 +1,18 @@
-# SCSS Boiler plate
+# NEW FOREST EXECUTIVE TAXIS
 
-I am a boilerplate for SCSS
+A local firm based in hythe, operating for over 20 years, as a luxury taxi service for all sorts of occasions.
 
-`ctrl c`
+## Development
 
-`npm install`
+1. Clone this repo
+2. Open up a terminal window
+3. Drag project folder and drop into terminal
+4. Run `npm install`
+5. Run `npm start`
 
-`npm start`
+## Technologies
+* HTML5
+* SCSS
+* SVG
 
-Change `package.json` name and description.
+
