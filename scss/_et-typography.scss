@@ -7,23 +7,38 @@
     color: $g-et-color-off-white;
     font-size: rem($shell-g-font-size-4x-large);
     position: absolute;
-    right: 10%;
+    right: 5%;
     text-align: center;
     text-shadow: 0 2px 14px rgba(150, 150, 150, 1);
     top: 10%;
 }
 
 .et-text-title {
-    font-size: rem($shell-g-font-size-2x-large);
+    font-size: rem($shell-g-font-size-x-large);
     font-weight: 300;
 }
 
 .et-text-summary {
-    font-size: rem($shell-g-font-size-large + 2);
+    font-size: rem($shell-g-font-size);
     font-weight: 300;
 }
 
 .et-text-summary--alt,
 .et-text-title--alt {
     color: $g-et-color-off-white;
+}
+
+
+@media (min-width: 40.063em) {
+    .et-text-summary {
+        font-size: rem($shell-g-font-size-large + 2);
+    }
+
+    .et-text-title {
+        font-size: rem($shell-g-font-size-2x-large);
+    }
+
+    .et-title {
+        right: 5%;
+    }
 }

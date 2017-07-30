@@ -5,11 +5,11 @@
 .et-sales-point {
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .et-sales-point__item {
-    margin: 0 rem($shell-g-spacing-6x-large);
     padding: rem($shell-g-spacing);
 }
 
@@ -33,4 +33,21 @@
 .et-sales-point__summary {
     margin-top: rem($shell-g-spacing);
     text-align: center;
+}
+
+
+@media (min-width: 40.063em) {
+    .et-sales-point {
+        flex-direction: row;
+    }
+
+    .et-sales-point__item {
+        margin: 0 rem($shell-g-spacing-3x-large);
+    }
+}
+
+@media (min-width: 75em) {
+    .et-sales-point__item {
+        margin: 0 rem($shell-g-spacing-6x-large);
+    }
 }

@@ -18,9 +18,10 @@
     font-size: rem($shell-g-font-size-3x-large);
     padding: rem($shell-g-spacing-x-large) rem($shell-g-spacing-4x-large);
     position: absolute;
-    right: 10%;
+    right: 50%;
     text-align: center;
-    top: 30%;
+    top: 70%;
+    transform: translateX(50%);
 
     &:hover,
     &:focus {
@@ -63,4 +64,21 @@
 
 .c-button--bordered {
     border: 1px solid $g-et-color-blue;
+}
+
+.h-media-spacing {
+    margin-bottom: rem($shell-g-spacing-5x-large);
+}
+
+
+@media (min-width: 40.063em) {
+    .h-media-spacing {
+        margin-bottom: rem($shell-g-spacing);
+    }
+
+    .et-quick-link {
+        right: 10%;
+        top: 30%;
+        transform: translateX(0%);
+    }
 }

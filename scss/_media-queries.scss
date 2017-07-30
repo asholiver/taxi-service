@@ -1,23 +1,48 @@
-// bp = breakpoint
-@mixin bp($screenSize) {
+/* ============================================================================
+    EXECUTIVE TRAVEL MEDIA QUERIES
+    ========================================================================= */
 
-    $bp-x-small: "(max-width: 500px)";
-    $bp-small: "(max-width: 760px)";
-    $bp-medium: "(max-width: 1023px)";
+@media (min-width: 40.063em) {
+    .l-grid__item--6-col-from-lap {
+        width: 50% !important;
+    }
 
-    @if $screenSize == medium {
-        @media #{$bp-medium} {
-            @content;
+    .l-grid__item--4-col-from-lap {
+        width: calc((100% / 12) * 4) !important;
+    }
+
+    .l-grid__item--8-col-from-lap {
+        width: calc((100% / 12) * 8) !important;
+    }
+
+    .l-container--from-lap {
+        display: block;
+        max-width: rem($shell-container-maximum-width-small);
+        min-width: rem($shell-container-minimum-width);
+        padding-left: rem($shell-container-gutter);
+        padding-right: rem($shell-container-gutter);
+        width: 100%;
+
+        @if $shell-container-apply-center-alignment {
+            margin: 0 auto;
         }
     }
-    @else if $screenSize == small {
-        @media #{$bp-small} {
-            @content;
-        }
+}
+
+@media (min-width: 75em) {
+    .l-grid__item--3-col-from-desk {
+        width: 25% !important;
     }
-    @else if $screenSize == x-small {
-        @media #{$bp-x-small}  {
-            @content;
-        }
+
+    .l-grid__item--4-col-from-desk {
+        width: calc((100% / 12) * 4) !important;
+    }
+
+    .l-grid__item--6-col-from-desk {
+        width: 50% !important;
+    }
+
+    .l-grid__item--8-col-from-desk {
+        width: calc((100% / 12) * 8) !important;
     }
 }

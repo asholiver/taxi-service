@@ -15,7 +15,7 @@
 }
 
 .et-main-nav {
-    display: flex;
+    display: none;
     justify-content: center;
     padding: 0 rem($shell-g-spacing-large);
     text-align: center;
@@ -44,3 +44,9 @@
     }
 }
 
+
+@media (min-width: 40.063em) {
+    .et-main-nav {
+        display: flex;
+    }
+}
